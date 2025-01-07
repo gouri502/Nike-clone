@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+
+.App h1 {
+  margin-top: 20px;
+  color: #333;
+  font-family: inherit; /* Inherit font from parent */
+}
+
+.App p {
+  color: #666;
+  font-family: inherit; /* Inherit font from parent */
+}
