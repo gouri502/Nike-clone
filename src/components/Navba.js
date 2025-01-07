@@ -1,7 +1,7 @@
 import React from 'react';
-import './Navbar.css';
+import './Navba.css';
 
-const Navbar = () => {
+const Navba = () => {
   return (
     <div className="navbar">
       {/* Top utility bar */}
@@ -79,4 +79,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navba;

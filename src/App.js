@@ -1,25 +1,6 @@
-// import React from 'react';
-// import Navbar from './components/Navbar';
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <Navbar />
-//       <div>
-//         <h1>Welcome to the Nike Clone</h1>
-//         <p>Start designing your page here!</p>
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default App;
-
-
-// App.js or your main page file
 import React from 'react';
 import Sidebar from './components/Sidebar';
-import Navbar from './components/Navbar';
+import Navba from './components/Navba';
 
 
 const App = () => {
@@ -30,9 +11,11 @@ const App = () => {
 
       {/* Main Content */}
       <div style={{ flex: 1 }}>
-        <Navbar /> {/* Optional: If you have a top navbar */}
+        <Navba /> {/* Optional: If you have a top navbar */}
         <div style={{ padding: '24px' }}>
-          <h1>New & Upcoming Drops(60)</h1>
+          <h1>New & Upcoming Drops (60)</h1>
+          {/* Product List */}
+
         </div>
       </div>
     </div>
