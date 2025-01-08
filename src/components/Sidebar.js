@@ -1,28 +1,20 @@
 import React from 'react';
 import { Menu } from 'antd';
-import {
-  MailOutlined,
-  AppstoreOutlined,
-  SettingOutlined,
-} from '@ant-design/icons';
+import { MailOutlined, AppstoreOutlined, SettingOutlined } from '@ant-design/icons';
 
 const { SubMenu } = Menu;
 
 const Sidebar = () => {
   return (
-    <div style={{
-      position: 'absolute',
-      top: '50%',
-      left: 0,
-      transform: 'translateY(-50%)', // This will center the sidebar vertically
-      width: 256,
-      background: '#fff',
-    }}>
-      <Menu
-        mode="inline"
-        style={{ height: '100%', borderRight: 0 }}
-        defaultOpenKeys={['sub1']}
-      >
+    <div
+      style={{
+        height: '100%', // Sidebar height matches the container
+        width: '100%', // Full width of the sidebar container
+        background: '#fff',
+        overflowY: 'auto',
+      }}
+    >
+      <Menu mode="inline" style={{ height: '100%', borderRight: 0 }} defaultOpenKeys={['sub1']}>
         <SubMenu key="gender" icon={<MailOutlined />} title="Gender">
           <Menu.Item key="1">Men</Menu.Item>
           <Menu.Item key="2">Women</Menu.Item>

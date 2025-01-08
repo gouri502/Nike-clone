@@ -20,7 +20,8 @@ const Navba = () => {
       <div className="main-nav">
         <div className="container">
           <div className="logo">NIKE</div>
-          <div className="nav-links">
+          <div className="nav-links" style={{marginLeft: '13%'}}>
+
             <a href="#">New & Featured</a>
             <a href="#">Men</a>
             <a href="#">Women</a>
@@ -72,6 +73,15 @@ const Navba = () => {
         <div className="container">
           <p className="offer-text">
             🚀 Enjoy up to <strong>50% off</strong> on select items! Limited-time offers. <a href="#" className="shop-now">Shop now</a>!
+          </p>
+        </div>
+      </div>
+
+      {/* Watch out */}
+      <div className="Watch-container">
+        <div className="container">
+          <p className="offer-text">
+          New & Upcoming Drops(60)
           </p>
         </div>
       </div> 

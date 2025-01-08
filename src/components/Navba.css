@@ -76,7 +76,7 @@ Navbar styles
 /* Banner container */
 .banner-container {
   background-color: #f4f4f4; /* Light grey background */
-  padding: 50px 0; /* Top and bottom padding */
+  padding: 30px 0; /* Top and bottom padding */
   text-align: center; /* Center-align the text */
 }
 
@@ -99,4 +99,15 @@ Navbar styles
 
 .banner-container .shop-now:hover {
   text-decoration: underline; /* Add underline on hover */
+}
+
+.Watch-container {
+  background-color: hsl(0, 0%, 100%); /* Light grey background */
+  padding: 10px 0; /* Top and bottom padding */
+  text-align: left; /* Center-align the text */
+  font-size: 30px;
+  font-weight: bold;
+  border-left: 100px
+  
+  
 }
